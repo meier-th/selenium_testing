@@ -1,0 +1,1176 @@
+{
+  "id": "1b4b5344-cf70-4e43-99f3-037991755d13",
+  "version": "2.0",
+  "name": "Lab",
+  "url": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
+  "tests": [{
+    "id": "1ae88515-2dd5-4253-8e6b-82dc2f934bed",
+    "name": "ToHome",
+    "commands": [{
+      "id": "041cac21-c1fc-4cdf-868c-0d727f935322",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3377b23-b27c-4fcf-a93f-2b46232749a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1098x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb81d27f-6cf7-4c46-8ec9-e5cfd97fe446",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=search-icon-legacy",
+      "targets": [
+        ["id=search-icon-legacy", "id"],
+        ["css=#search-icon-legacy", "css:finder"],
+        ["xpath=//button[@id='search-icon-legacy']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47a2ab90-2f74-4d7d-a8bf-847a1e693f5f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=search-icon-legacy",
+      "targets": [
+        ["id=search-icon-legacy", "id"],
+        ["css=#search-icon-legacy", "css:finder"],
+        ["xpath=//button[@id='search-icon-legacy']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Введите запрос')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9471855-5c07-417f-9ef0-c6d13045749e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "102fb527-ef37-46d7-a12e-e350d4574434",
+      "comment": "",
+      "command": "click",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98bc8a53-965b-48f8-bfad-b5b3d279c753",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2bd5a12-3593-4194-94f6-c8333a3fb38d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#header > #guide-button #guide-icon",
+      "targets": [
+        ["css=#header > #guide-button #guide-icon", "css:finder"],
+        ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[7]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/yt-icon-button/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30f14c2a-e1b7-4cd0-8d0b-8a5e9178cb9a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#header > #guide-button #guide-icon",
+      "targets": [
+        ["css=#header > #guide-button #guide-icon", "css:finder"],
+        ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[7]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/yt-icon-button/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e24d564-86c9-4622-b135-fed13e67cb7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(1) > #endpoint .title",
+      "targets": [
+        ["css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(1) > #endpoint .title", "css:finder"],
+        ["xpath=//a[@id='endpoint']/paper-item/yt-formatted-string", "xpath:idRelative"],
+        ["xpath=//paper-item/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Главная')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "33bf958b-8535-4a76-9895-c84044e24998",
+    "name": "TrendingTest",
+    "commands": [{
+      "id": "d8b8fb32-3d73-4179-90e3-a792105dd549",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62b913d4-28f2-476b-af4c-bf01b620eee5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1098x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a98ad47a-8003-44d5-a265-38900a9e86eb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea671ce4-35e1-464f-af5d-472b0d891ffe",
+      "comment": "",
+      "command": "click",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92936340-debf-453f-b1d3-c0ec4cb316e7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d43b0d73-8e91-45e4-83c4-483eb0ef1ec0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(2) > #endpoint .title",
+      "targets": [
+        ["css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(2) > #endpoint .title", "css:finder"],
+        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-guide-entry-renderer[2]/a/paper-item/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'В тренде')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eede3b1b-cfb6-4fb0-9b39-47dc38d74678",
+    "name": "SubscriptionsTest",
+    "commands": [{
+      "id": "995ebeb1-84a7-4108-844a-75f5bab5f5eb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b8e4d5e-7589-4dd8-a599-e0dae50d8a28",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1098x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8e7f2db-d071-4ca3-b188-6ee555b6ae1f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a78a853-dc5d-49f5-8110-a2a70a1b1500",
+      "comment": "",
+      "command": "click",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e69424a7-832a-4dde-8a71-86160cecfdf9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4b16104-287b-4d68-a564-aff88124321e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(3) > #endpoint .title",
+      "targets": [
+        ["css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(3) > #endpoint .title", "css:finder"],
+        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[3]", "xpath:idRelative"],
+        ["xpath=//ytd-guide-entry-renderer[3]/a/paper-item/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Подписки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5aa12b4f-46d5-4d24-a1ed-d325f2f30414",
+    "name": "LibraryTest",
+    "commands": [{
+      "id": "f9f5eb08-191d-477b-901b-be9b7e265ce1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4567561d-7bdf-419a-94e0-0dfcba74075e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1098x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a52ae29-7e42-4676-8190-3f81a3351057",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86acb59e-225f-4182-b99d-95bff941ae41",
+      "comment": "",
+      "command": "click",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a7320af-7ac6-496c-84cb-7e9065440f66",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5eb211f-3207-407c-9d7d-a547bbf21412",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#header > #guide-button #guide-icon",
+      "targets": [
+        ["css=#header > #guide-button #guide-icon", "css:finder"],
+        ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[7]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/yt-icon-button/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c301c16d-bb10-4e77-beac-6fa9014ba2b1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#header > #guide-button #guide-icon",
+      "targets": [
+        ["css=#header > #guide-button #guide-icon", "css:finder"],
+        ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[7]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/yt-icon-button/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "154c59e1-e85c-4166-800a-ee9f248f4d5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(2) > #items > .style-scope:nth-child(1) > #endpoint .title",
+      "targets": [
+        ["css=.style-scope:nth-child(2) > #items > .style-scope:nth-child(1) > #endpoint .title", "css:finder"],
+        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[4]", "xpath:idRelative"],
+        ["xpath=//ytd-guide-section-renderer[2]/div/ytd-guide-entry-renderer/a/paper-item/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Библиотека')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2474f337-2673-4abd-93e1-651f8af0aeb0",
+    "name": "HistoryTest",
+    "commands": [{
+      "id": "cb0badc1-de9e-4b11-8f1b-f5d9203b3716",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2446f06-e8fd-4043-beee-3502efe2e9e6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1098x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38c6cc2c-74c7-4c38-897e-9783936e917c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-large-play-button",
+      "targets": [
+        ["css=.ytp-large-play-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dd24ecd-44d9-4e3a-b12a-281a16c4bc17",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e634a917-7a17-4e33-b874-03807bea7300",
+      "comment": "",
+      "command": "click",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81d1e5c1-89fc-4cf3-9bb4-1444bb72f761",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d302be9c-7c7c-4995-bd9f-e37ff7284c1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(2) > #items > .style-scope:nth-child(2) > #endpoint .title",
+      "targets": [
+        ["css=.style-scope:nth-child(2) > #items > .style-scope:nth-child(2) > #endpoint .title", "css:finder"],
+        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[5]", "xpath:idRelative"],
+        ["xpath=//ytd-guide-section-renderer[2]/div/ytd-guide-entry-renderer[2]/a/paper-item/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'История')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "922fda49-983a-4132-90c1-f24c31c8ac4d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio",
+      "targets": [
+        ["css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio", "css:finder"],
+        ["xpath=(//div[@id='offRadio'])[2]", "xpath:attributes"],
+        ["xpath=(//div[@id='radioContainer']/div)[3]", "xpath:idRelative"],
+        ["xpath=//ytd-sub-feed-option-renderer[2]/a/paper-radio-button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56b47940-20cd-417d-b123-130531e1c11c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio",
+      "targets": [
+        ["css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio", "css:finder"],
+        ["xpath=(//div[@id='offRadio'])[2]", "xpath:attributes"],
+        ["xpath=(//div[@id='radioContainer']/div)[3]", "xpath:idRelative"],
+        ["xpath=//ytd-sub-feed-option-renderer[2]/a/paper-radio-button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52769698-0258-457f-8a76-484fd8326cf8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio",
+      "targets": [
+        ["css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio", "css:finder"],
+        ["xpath=(//div[@id='offRadio'])[2]", "xpath:attributes"],
+        ["xpath=(//div[@id='radioContainer']/div)[3]", "xpath:idRelative"],
+        ["xpath=//ytd-sub-feed-option-renderer[2]/a/paper-radio-button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cda15ff-036a-43c8-87ea-58b617a578ab",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(3) #offRadio",
+      "targets": [
+        ["css=.style-scope:nth-child(3) #offRadio", "css:finder"],
+        ["xpath=(//div[@id='offRadio'])[3]", "xpath:attributes"],
+        ["xpath=(//div[@id='radioContainer']/div)[5]", "xpath:idRelative"],
+        ["xpath=//ytd-sub-feed-option-renderer[3]/a/paper-radio-button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "825f001d-2737-4915-9cdc-71e2d0326f16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(3) #offRadio",
+      "targets": [
+        ["css=.style-scope:nth-child(3) #offRadio", "css:finder"],
+        ["xpath=(//div[@id='offRadio'])[3]", "xpath:attributes"],
+        ["xpath=(//div[@id='radioContainer']/div)[5]", "xpath:idRelative"],
+        ["xpath=//ytd-sub-feed-option-renderer[3]/a/paper-radio-button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac398773-64fa-4e1e-a725-faaed4599de5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(3) #offRadio",
+      "targets": [
+        ["css=.style-scope:nth-child(3) #offRadio", "css:finder"],
+        ["xpath=(//div[@id='offRadio'])[3]", "xpath:attributes"],
+        ["xpath=(//div[@id='radioContainer']/div)[5]", "xpath:idRelative"],
+        ["xpath=//ytd-sub-feed-option-renderer[3]/a/paper-radio-button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45c3dab4-1521-4444-b2a2-6dd776da5f5d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio", "css:finder"],
+        ["xpath=(//div[@id='offRadio'])[4]", "xpath:attributes"],
+        ["xpath=(//div[@id='radioContainer']/div)[7]", "xpath:idRelative"],
+        ["xpath=//ytd-sub-feed-option-renderer[4]/a/paper-radio-button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f16599e7-2433-462c-b387-b7c21a2f2f47",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio", "css:finder"],
+        ["xpath=(//div[@id='offRadio'])[4]", "xpath:attributes"],
+        ["xpath=(//div[@id='radioContainer']/div)[7]", "xpath:idRelative"],
+        ["xpath=//ytd-sub-feed-option-renderer[4]/a/paper-radio-button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57061d58-a9aa-4c69-b4a7-29389968fdbd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio", "css:finder"],
+        ["xpath=(//div[@id='offRadio'])[4]", "xpath:attributes"],
+        ["xpath=(//div[@id='radioContainer']/div)[7]", "xpath:idRelative"],
+        ["xpath=//ytd-sub-feed-option-renderer[4]/a/paper-radio-button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d2a0ffb-3f27-49cc-9b68-5993aad2b5ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(5) #offRadio",
+      "targets": [
+        ["css=.style-scope:nth-child(5) #offRadio", "css:finder"],
+        ["xpath=(//div[@id='offRadio'])[5]", "xpath:attributes"],
+        ["xpath=(//div[@id='radioContainer']/div)[9]", "xpath:idRelative"],
+        ["xpath=//ytd-sub-feed-option-renderer[5]/a/paper-radio-button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1981927d-9c32-4635-9fef-f34ce850321e",
+    "name": "SettingsTest",
+    "commands": [{
+      "id": "c85838e2-ce9a-4f60-b8bd-fd442ae7d4df",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46766a17-21f4-4be9-9283-5f9085ccc99c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1098x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1be46fef-787a-407a-9256-ae2321186c45",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=logo-icon-container",
+      "targets": [
+        ["id=logo-icon-container", "id"],
+        ["css=#logo > #logo > #logo-icon-container", "css:finder"],
+        ["xpath=//div[@id='logo-icon-container']", "xpath:attributes"],
+        ["xpath=//a[@id='logo']/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6d6970a-ab83-4927-905c-7d0a6005d481",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=logo-icon-container",
+      "targets": [
+        ["id=logo-icon-container", "id"],
+        ["css=#logo > #logo > #logo-icon-container", "css:finder"],
+        ["xpath=//div[@id='logo-icon-container']", "xpath:attributes"],
+        ["xpath=//a[@id='logo']/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff5ff342-7d35-4f7e-a51e-c45ee159a0fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=guide-button",
+      "targets": [
+        ["id=guide-button", "id"],
+        ["css=#start > #guide-button", "css:finder"],
+        ["xpath=//yt-icon-button[@id='guide-button']", "xpath:attributes"],
+        ["xpath=//div[@id='start']/yt-icon-button[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf0423a3-4236-43d6-9916-f9e4f2ba19a4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-app > #logo > #logo-icon-container",
+      "targets": [
+        ["css=.ytd-app > #logo > #logo-icon-container", "css:finder"],
+        ["xpath=(//div[@id='logo-icon-container'])[2]", "xpath:attributes"],
+        ["xpath=(//a[@id='logo']/div)[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ytd-topbar-logo-renderer/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0c71a40-4f6e-418a-9b20-d93f622070f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(1) > #endpoint .title",
+      "targets": [
+        ["css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(1) > #endpoint .title", "css:finder"],
+        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[17]", "xpath:idRelative"],
+        ["xpath=//ytd-guide-section-renderer[6]/div/ytd-guide-entry-renderer/a/paper-item/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Настройки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e7071a97-2ac5-4bd2-9eb6-f4af44d703df",
+    "name": "ReportsTest",
+    "commands": [{
+      "id": "163030e9-1c31-4284-947c-e2f6f59cb663",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3622f44-fab9-4837-92e9-c72c92764e7d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1098x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "063fe483-8cb5-43f3-9c83-4a52698df608",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d90eda7-e7cc-47ba-98db-7f83dd996eda",
+      "comment": "",
+      "command": "click",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "387966f8-09b7-4c50-986b-7fac2122f4ab",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a346c80-5ac7-47c0-9910-68d643229d34",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-app > #logo > #logo-icon-container",
+      "targets": [
+        ["css=.ytd-app > #logo > #logo-icon-container", "css:finder"],
+        ["xpath=(//div[@id='logo-icon-container'])[2]", "xpath:attributes"],
+        ["xpath=(//a[@id='logo']/div)[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ytd-topbar-logo-renderer/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45b78ced-3618-449b-bfe5-d919a94fd82c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-app > #logo > #logo-icon-container",
+      "targets": [
+        ["css=.ytd-app > #logo > #logo-icon-container", "css:finder"],
+        ["xpath=(//div[@id='logo-icon-container'])[2]", "xpath:attributes"],
+        ["xpath=(//a[@id='logo']/div)[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ytd-topbar-logo-renderer/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9979f25d-02e0-40d0-90c4-2335bee59c9d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9096088-134b-4e6b-9345-c798437f89f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(2) > #endpoint .title",
+      "targets": [
+        ["css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(2) > #endpoint .title", "css:finder"],
+        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[18]", "xpath:idRelative"],
+        ["xpath=//ytd-guide-section-renderer[6]/div/ytd-guide-entry-renderer[2]/a/paper-item/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Жалобы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f65605e-cca3-4723-8eb7-0f4623159608",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["css=#introduction-text > #title", "css:finder"],
+        ["xpath=//div[@id='title']", "xpath:attributes"],
+        ["xpath=//div[@id='introduction-text']/div[2]", "xpath:idRelative"],
+        ["xpath=//ytd-page-introduction-renderer/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "943df2b2-b803-4ca9-9595-4ca1fec6edc7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=принципы сообщества",
+      "targets": [
+        ["linkText=принципы сообщества", "linkText"],
+        ["css=.introduction-bullet-items .yt-simple-endpoint", "css:finder"],
+        ["xpath=//a[contains(text(),'принципы сообщества')]", "xpath:link"],
+        ["xpath=//yt-formatted-string[@id='text']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.youtube.com/t/community_guidelines')]", "xpath:href"],
+        ["xpath=//yt-formatted-string/a", "xpath:position"],
+        ["xpath=//a[contains(.,'принципы сообщества')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win332",
+      "windowTimeout": 2000
+    }, {
+      "id": "844b2763-d8c9-490f-8319-0f487a4f2889",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win332}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "575dc4c6-8b64-42db-9a2f-1f6fad3cbd38",
+    "name": "ReferenceTest",
+    "commands": [{
+      "id": "f92066e1-f4b5-4672-a02f-c03885ac7856",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffbc2302-68ae-4dbe-acda-7e2137dde449",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1098x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7e9e8bb-0e6d-45ed-927e-c1e73035d885",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de4001f6-fe7d-4e0e-8f6b-e3c3acb2d5f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9883edb6-f18b-4050-9b38-2f92745e4040",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5907ba1-2e66-429b-aedc-3bf7aab1646e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-app > #logo > #logo-icon-container",
+      "targets": [
+        ["css=.ytd-app > #logo > #logo-icon-container", "css:finder"],
+        ["xpath=(//div[@id='logo-icon-container'])[2]", "xpath:attributes"],
+        ["xpath=(//a[@id='logo']/div)[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ytd-topbar-logo-renderer/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78df1230-88b3-4583-819d-5940c2e706bf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-app > #logo > #logo-icon-container",
+      "targets": [
+        ["css=.ytd-app > #logo > #logo-icon-container", "css:finder"],
+        ["xpath=(//div[@id='logo-icon-container'])[2]", "xpath:attributes"],
+        ["xpath=(//a[@id='logo']/div)[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ytd-topbar-logo-renderer/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38e61158-df20-40d4-b2e4-c9531e4d861c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(2) > #endpoint .title",
+      "targets": [
+        ["css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(2) > #endpoint .title", "css:finder"],
+        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-guide-entry-renderer[2]/a/paper-item/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'В тренде')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "156a9bac-cacb-467a-a6bc-7cfb8f74e1ce",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(2) > #endpoint .title",
+      "targets": [
+        ["css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(2) > #endpoint .title", "css:finder"],
+        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-guide-entry-renderer[2]/a/paper-item/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'В тренде')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5971e92-701b-41c7-8e07-71712576c95a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfdf344d-26cf-4a39-ac5a-1dc6620b0d65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(3) > #endpoint .title",
+      "targets": [
+        ["css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(3) > #endpoint .title", "css:finder"],
+        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[19]", "xpath:idRelative"],
+        ["xpath=//ytd-guide-section-renderer[6]/div/ytd-guide-entry-renderer[3]/a/paper-item/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Справка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a4343cb-73b4-474e-92b3-c68343172919",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(7) .style-scope:nth-child(2) > #endpoint > .style-scope",
+      "targets": [
+        ["css=.style-scope:nth-child(7) .style-scope:nth-child(2) > #endpoint > .style-scope", "css:finder"],
+        ["xpath=(//a[@id='endpoint']/paper-item)[18]", "xpath:idRelative"],
+        ["xpath=//ytd-guide-section-renderer[6]/div/ytd-guide-entry-renderer[2]/a/paper-item", "xpath:position"],
+        ["xpath=//paper-item[contains(.,'Жалобы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c4ba277-4e55-45b0-9639-a710b05c5e95",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "47f8ccb8-7651-4668-9e3e-eb7bf43ef905",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "74f9786b-6778-434c-bc3d-0a6b49637e77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.help-panel-home:nth-child(7) .help-panel-search__recommendation-results > .help-panel-search-result:nth-child(3) > .help-panel-search-result__text",
+      "targets": [
+        ["css=.help-panel-home:nth-child(7) .help-panel-search__recommendation-results > .help-panel-search-result:nth-child(3) > .help-panel-search-result__text", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div[7]/div[2]/div/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/div/a[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1b602b3-a0cf-40db-a862-8c556f48ac7d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "18ca6ff8-7a56-4536-ad06-dd8702e0ff5b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aa687cd-dcc2-41f7-a784-d3cc77925d77",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd317eb7-3c74-492e-8986-fa6623490f99",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fcf7364-4b78-422d-adb0-99bb906a4ec3",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe36d7e2-7b6a-4cae-a05e-81a10c003841",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4e54ea9-30ba-4d72-bfc4-0e8cc6dcc6b6",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=8",
+      "targets": [
+        ["index=8"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1372d42-3fc3-4eb2-86cb-7052b2d49555",
+      "comment": "",
+      "command": "click",
+      "target": "css=.as-button:nth-child(1)",
+      "targets": [
+        ["css=.as-button:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Да')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8ea734d1-06d6-4f4a-9fb1-594cc19db6f2",
+    "name": "LeaveReviewTest",
+    "commands": [{
+      "id": "99937aab-6f03-4111-b28f-363b8806720e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b40cb0b5-69a4-47aa-af7c-89af0ca46cb1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1098x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a886727-5aef-476b-bcbf-f061e8eba277",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=logo-icon-container",
+      "targets": [
+        ["id=logo-icon-container", "id"],
+        ["css=#logo > #logo > #logo-icon-container", "css:finder"],
+        ["xpath=//div[@id='logo-icon-container']", "xpath:attributes"],
+        ["xpath=//a[@id='logo']/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc734f7f-53bf-48f2-aca8-2ec72029f3b8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=logo-icon-container",
+      "targets": [
+        ["id=logo-icon-container", "id"],
+        ["css=#logo > #logo > #logo-icon-container", "css:finder"],
+        ["xpath=//div[@id='logo-icon-container']", "xpath:attributes"],
+        ["xpath=//a[@id='logo']/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4129e34a-44c0-42c5-bd72-022c31657a9d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8fec687-f349-434f-9bea-8ea3052dcbe7",
+      "comment": "",
+      "command": "click",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c710a25e-aa72-4f62-853a-ebc6bdea374d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28db0621-2a18-4c08-a706-90fd9e424078",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(4) > #endpoint .title",
+      "targets": [
+        ["css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(4) > #endpoint .title", "css:finder"],
+        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[20]", "xpath:idRelative"],
+        ["xpath=//ytd-guide-section-renderer[6]/div/ytd-guide-entry-renderer[4]/a/paper-item/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Отправить отзыв')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99796b35-f238-4cbd-ae63-fb04df25edd3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "985c7ba7-cc84-402a-adc5-5dc789e11638",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee9b719f-1b92-4583-8011-5c7cdc0fc316",
+      "comment": "",
+      "command": "click",
+      "target": "css=textarea",
+      "targets": [
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad4f4cbe-982c-4803-bcf6-b45822ea099a",
+      "comment": "",
+      "command": "click",
+      "target": "css=textarea",
+      "targets": [
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5359ad0-9f2c-4d3a-bfea-33bb44babaa9",
+      "comment": "",
+      "command": "type",
+      "target": "css=textarea",
+      "targets": [
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Fisting boy next door"
+    }, {
+      "id": "6cf8b759-245e-49d2-9a1c-dd74a7d7f06e",
+      "comment": "",
+      "command": "click",
+      "target": "css=uf-material-button:nth-child(1) button",
+      "targets": [
+        ["css=uf-material-button:nth-child(1) button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//label/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ОТПРАВИТЬ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f6cdbddf-2b5e-4887-85ea-0e3dfceeb1bd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1ae88515-2dd5-4253-8e6b-82dc2f934bed"]
+  }],
+  "urls": ["https://www.youtube.com/", "https://www.youtube.com/watch?v=FFJfwEJQJzQ"],
+  "plugins": []
+}
