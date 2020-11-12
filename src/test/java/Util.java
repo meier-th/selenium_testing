@@ -1,8 +1,15 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class Util {
 
@@ -12,8 +19,21 @@ public class Util {
     }
 
     public static WebDriver getFirefoxDriver() {
-        System.setProperty("webdriver.gecko.driver", "/home/thom/selenium_grid/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "geckodriver");
         return new FirefoxDriver();
+    }
+
+    public static WebDriver getChromeDriver() {
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
+        return new ChromeDriver();
+    }
+
+    public static WebDriver getGridEnvFirefoxDriver() throws MalformedURLException {
+        return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), new FirefoxOptions());
+    }
+
+    public static WebDriver getGridEnvChromeDriver() throws MalformedURLException {
+        return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), new ChromeOptions());
     }
 
 }

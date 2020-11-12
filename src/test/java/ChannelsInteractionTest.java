@@ -9,7 +9,7 @@ public class ChannelsInteractionTest {
 
   @BeforeEach
   public void setUp() {
-    driver = Util.getFirefoxDriver();
+    driver = Util.getChromeDriver();
     js = (JavascriptExecutor) driver;
   }
 
