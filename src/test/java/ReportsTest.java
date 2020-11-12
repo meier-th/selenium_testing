@@ -16,9 +16,9 @@ public class ReportsTest {
   JavascriptExecutor js;
   @BeforeEach
   public void setUp() {
-    driver = new FirefoxDriver();
+    driver = Util.getFirefoxDriver();
     js = (JavascriptExecutor) driver;
-    vars = new HashMap<String, Object>();
+    vars = new HashMap<>();
   }
   @AfterEach
   public void tearDown() {

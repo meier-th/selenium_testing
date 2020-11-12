@@ -12,14 +12,12 @@ import java.util.Map;
 
 public class HistoryTest {
   private WebDriver driver;
-  private Map<String, Object> vars;
   JavascriptExecutor js;
 
   @BeforeEach
   public void setUp() {
-    driver = new FirefoxDriver();
+    driver = Util.getFirefoxDriver();
     js = (JavascriptExecutor) driver;
-    vars = new HashMap<String, Object>();
   }
 
   @AfterEach
