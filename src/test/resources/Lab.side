@@ -24,7 +24,7 @@
       "id": "bb81d27f-6cf7-4c46-8ec9-e5cfd97fe446",
       "comment": "",
       "command": "mouseOver",
-      "target": "id=search-icon-legacy",
+      "target": "xpath=//form[@id='search-form']/button",
       "targets": [
         ["id=search-icon-legacy", "id"],
         ["css=#search-icon-legacy", "css:finder"],
@@ -37,7 +37,7 @@
       "id": "47a2ab90-2f74-4d7d-a8bf-847a1e693f5f",
       "comment": "",
       "command": "mouseOut",
-      "target": "id=search-icon-legacy",
+      "target": "xpath=//form[@id='search-form']/button",
       "targets": [
         ["id=search-icon-legacy", "id"],
         ["css=#search-icon-legacy", "css:finder"],
@@ -51,7 +51,7 @@
       "id": "e9471855-5c07-417f-9ef0-c6d13045749e",
       "comment": "",
       "command": "mouseOver",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -64,7 +64,7 @@
       "id": "102fb527-ef37-46d7-a12e-e350d4574434",
       "comment": "",
       "command": "click",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -77,7 +77,7 @@
       "id": "98bc8a53-965b-48f8-bfad-b5b3d279c753",
       "comment": "",
       "command": "mouseOut",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -90,7 +90,7 @@
       "id": "e2bd5a12-3593-4194-94f6-c8333a3fb38d",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=#header > #guide-button #guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[7]",
       "targets": [
         ["css=#header > #guide-button #guide-icon", "css:finder"],
         ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
@@ -102,7 +102,7 @@
       "id": "30f14c2a-e1b7-4cd0-8d0b-8a5e9178cb9a",
       "comment": "",
       "command": "mouseOut",
-      "target": "css=#header > #guide-button #guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[7]",
       "targets": [
         ["css=#header > #guide-button #guide-icon", "css:finder"],
         ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
@@ -114,7 +114,7 @@
       "id": "5e24d564-86c9-4622-b135-fed13e67cb7c",
       "comment": "",
       "command": "click",
-      "target": "css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(1) > #endpoint .title",
+      "target": "xpath=//a[@id='endpoint']/paper-item/yt-formatted-string",
       "targets": [
         ["css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(1) > #endpoint .title", "css:finder"],
         ["xpath=//a[@id='endpoint']/paper-item/yt-formatted-string", "xpath:idRelative"],
@@ -144,7 +144,7 @@
       "id": "a98ad47a-8003-44d5-a265-38900a9e86eb",
       "comment": "",
       "command": "mouseOver",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -157,7 +157,7 @@
       "id": "ea671ce4-35e1-464f-af5d-472b0d891ffe",
       "comment": "",
       "command": "click",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -170,7 +170,7 @@
       "id": "92936340-debf-453f-b1d3-c0ec4cb316e7",
       "comment": "",
       "command": "mouseOut",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -183,7 +183,7 @@
       "id": "d43b0d73-8e91-45e4-83c4-483eb0ef1ec0",
       "comment": "",
       "command": "click",
-      "target": "css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(2) > #endpoint .title",
+      "target": "xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[2]",
       "targets": [
         ["css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(2) > #endpoint .title", "css:finder"],
         ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[2]", "xpath:idRelative"],
@@ -213,7 +213,7 @@
       "id": "f8e7f2db-d071-4ca3-b188-6ee555b6ae1f",
       "comment": "",
       "command": "mouseOver",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -226,7 +226,7 @@
       "id": "3a78a853-dc5d-49f5-8110-a2a70a1b1500",
       "comment": "",
       "command": "click",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -239,7 +239,7 @@
       "id": "e69424a7-832a-4dde-8a71-86160cecfdf9",
       "comment": "",
       "command": "mouseOut",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -252,7 +252,7 @@
       "id": "e4b16104-287b-4d68-a564-aff88124321e",
       "comment": "",
       "command": "click",
-      "target": "css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(3) > #endpoint .title",
+      "target": "xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[3]",
       "targets": [
         ["css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(3) > #endpoint .title", "css:finder"],
         ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[3]", "xpath:idRelative"],
@@ -282,7 +282,7 @@
       "id": "5a52ae29-7e42-4676-8190-3f81a3351057",
       "comment": "",
       "command": "mouseOver",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -295,7 +295,7 @@
       "id": "86acb59e-225f-4182-b99d-95bff941ae41",
       "comment": "",
       "command": "click",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -308,7 +308,7 @@
       "id": "7a7320af-7ac6-496c-84cb-7e9065440f66",
       "comment": "",
       "command": "mouseOut",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -321,7 +321,7 @@
       "id": "d5eb211f-3207-407c-9d7d-a547bbf21412",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=#header > #guide-button #guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[7]",
       "targets": [
         ["css=#header > #guide-button #guide-icon", "css:finder"],
         ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
@@ -333,7 +333,7 @@
       "id": "c301c16d-bb10-4e77-beac-6fa9014ba2b1",
       "comment": "",
       "command": "mouseOut",
-      "target": "css=#header > #guide-button #guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[7]",
       "targets": [
         ["css=#header > #guide-button #guide-icon", "css:finder"],
         ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
@@ -345,7 +345,7 @@
       "id": "154c59e1-e85c-4166-800a-ee9f248f4d5f",
       "comment": "",
       "command": "click",
-      "target": "css=.style-scope:nth-child(2) > #items > .style-scope:nth-child(1) > #endpoint .title",
+      "target": "xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[4]",
       "targets": [
         ["css=.style-scope:nth-child(2) > #items > .style-scope:nth-child(1) > #endpoint .title", "css:finder"],
         ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[4]", "xpath:idRelative"],
@@ -375,7 +375,7 @@
       "id": "38c6cc2c-74c7-4c38-897e-9783936e917c",
       "comment": "",
       "command": "click",
-      "target": "css=.ytp-large-play-button",
+      "target": "xpath=//div[@id='movie_player']/div[5]/button",
       "targets": [
         ["css=.ytp-large-play-button", "css:finder"],
         ["xpath=//div[@id='movie_player']/div[5]/button", "xpath:idRelative"],
@@ -386,7 +386,7 @@
       "id": "2dd24ecd-44d9-4e3a-b12a-281a16c4bc17",
       "comment": "",
       "command": "mouseOver",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -399,7 +399,7 @@
       "id": "e634a917-7a17-4e33-b874-03807bea7300",
       "comment": "",
       "command": "click",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -412,7 +412,7 @@
       "id": "81d1e5c1-89fc-4cf3-9bb4-1444bb72f761",
       "comment": "",
       "command": "mouseOut",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -425,7 +425,7 @@
       "id": "d302be9c-7c7c-4995-bd9f-e37ff7284c1a",
       "comment": "",
       "command": "click",
-      "target": "css=.style-scope:nth-child(2) > #items > .style-scope:nth-child(2) > #endpoint .title",
+      "target": "xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[5]",
       "targets": [
         ["css=.style-scope:nth-child(2) > #items > .style-scope:nth-child(2) > #endpoint .title", "css:finder"],
         ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[5]", "xpath:idRelative"],
@@ -437,7 +437,7 @@
       "id": "922fda49-983a-4132-90c1-f24c31c8ac4d",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio",
+      "target": "xpath=(//div[@id='radioContainer']/div)[3]",
       "targets": [
         ["css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[2]", "xpath:attributes"],
@@ -449,7 +449,7 @@
       "id": "56b47940-20cd-417d-b123-130531e1c11c",
       "comment": "",
       "command": "click",
-      "target": "css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio",
+      "target": "xpath=(//div[@id='radioContainer']/div)[3]",
       "targets": [
         ["css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[2]", "xpath:attributes"],
@@ -461,7 +461,7 @@
       "id": "52769698-0258-457f-8a76-484fd8326cf8",
       "comment": "",
       "command": "mouseOut",
-      "target": "css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio",
+      "target": "xpath=(//div[@id='radioContainer']/div)[3]",
       "targets": [
         ["css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[2]", "xpath:attributes"],
@@ -473,7 +473,7 @@
       "id": "0cda15ff-036a-43c8-87ea-58b617a578ab",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=.style-scope:nth-child(3) #offRadio",
+      "target": "xpath=(//div[@id='radioContainer']/div)[5]",
       "targets": [
         ["css=.style-scope:nth-child(3) #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[3]", "xpath:attributes"],
@@ -485,7 +485,7 @@
       "id": "825f001d-2737-4915-9cdc-71e2d0326f16",
       "comment": "",
       "command": "click",
-      "target": "css=.style-scope:nth-child(3) #offRadio",
+      "target": "xpath=(//div[@id='radioContainer']/div)[5]",
       "targets": [
         ["css=.style-scope:nth-child(3) #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[3]", "xpath:attributes"],
@@ -497,7 +497,7 @@
       "id": "ac398773-64fa-4e1e-a725-faaed4599de5",
       "comment": "",
       "command": "mouseOut",
-      "target": "css=.style-scope:nth-child(3) #offRadio",
+      "target": "xpath=(//div[@id='radioContainer']/div)[5]",
       "targets": [
         ["css=.style-scope:nth-child(3) #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[3]", "xpath:attributes"],
@@ -509,7 +509,7 @@
       "id": "45c3dab4-1521-4444-b2a2-6dd776da5f5d",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio",
+      "target": "xpath=(//div[@id='radioContainer']/div)[7]",
       "targets": [
         ["css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[4]", "xpath:attributes"],
@@ -521,7 +521,7 @@
       "id": "f16599e7-2433-462c-b387-b7c21a2f2f47",
       "comment": "",
       "command": "click",
-      "target": "css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio",
+      "target": "xpath=(//div[@id='radioContainer']/div)[7]",
       "targets": [
         ["css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[4]", "xpath:attributes"],
@@ -533,7 +533,7 @@
       "id": "57061d58-a9aa-4c69-b4a7-29389968fdbd",
       "comment": "",
       "command": "mouseOut",
-      "target": "css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio",
+      "target": "xpath=(//div[@id='radioContainer']/div)[7]",
       "targets": [
         ["css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[4]", "xpath:attributes"],
@@ -545,7 +545,7 @@
       "id": "4d2a0ffb-3f27-49cc-9b68-5993aad2b5ed",
       "comment": "",
       "command": "click",
-      "target": "css=.style-scope:nth-child(5) #offRadio",
+      "target": "xpath=(//div[@id='radioContainer']/div)[9]",
       "targets": [
         ["css=.style-scope:nth-child(5) #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[5]", "xpath:attributes"],
@@ -575,7 +575,7 @@
       "id": "1be46fef-787a-407a-9256-ae2321186c45",
       "comment": "",
       "command": "mouseOver",
-      "target": "id=logo-icon-container",
+      "target": "xpath=//a[@id='logo']/div",
       "targets": [
         ["id=logo-icon-container", "id"],
         ["css=#logo > #logo > #logo-icon-container", "css:finder"],
@@ -588,7 +588,7 @@
       "id": "d6d6970a-ab83-4927-905c-7d0a6005d481",
       "comment": "",
       "command": "mouseOut",
-      "target": "id=logo-icon-container",
+      "target": "xpath=//a[@id='logo']/div",
       "targets": [
         ["id=logo-icon-container", "id"],
         ["css=#logo > #logo > #logo-icon-container", "css:finder"],
@@ -601,7 +601,7 @@
       "id": "ff5ff342-7d35-4f7e-a51e-c45ee159a0fd",
       "comment": "",
       "command": "click",
-      "target": "id=guide-button",
+      "target": "xpath=//div[@id='start']/yt-icon-button[2]",
       "targets": [
         ["id=guide-button", "id"],
         ["css=#start > #guide-button", "css:finder"],
@@ -614,7 +614,7 @@
       "id": "bf0423a3-4236-43d6-9916-f9e4f2ba19a4",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=.ytd-app > #logo > #logo-icon-container",
+      "target": "xpath=(//a[@id='logo']/div)[3]",
       "targets": [
         ["css=.ytd-app > #logo > #logo-icon-container", "css:finder"],
         ["xpath=(//div[@id='logo-icon-container'])[2]", "xpath:attributes"],
@@ -626,7 +626,7 @@
       "id": "d0c71a40-4f6e-418a-9b20-d93f622070f1",
       "comment": "",
       "command": "click",
-      "target": "css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(1) > #endpoint .title",
+      "target": "xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[17]",
       "targets": [
         ["css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(1) > #endpoint .title", "css:finder"],
         ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[17]", "xpath:idRelative"],
@@ -656,7 +656,7 @@
       "id": "063fe483-8cb5-43f3-9c83-4a52698df608",
       "comment": "",
       "command": "mouseOver",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -669,7 +669,7 @@
       "id": "0d90eda7-e7cc-47ba-98db-7f83dd996eda",
       "comment": "",
       "command": "click",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -682,7 +682,7 @@
       "id": "387966f8-09b7-4c50-986b-7fac2122f4ab",
       "comment": "",
       "command": "mouseOut",
-      "target": "id=guide-icon",
+      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -695,7 +695,7 @@
       "id": "6a346c80-5ac7-47c0-9910-68d643229d34",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=.ytd-app > #logo > #logo-icon-container",
+      "target": "xpath=(//a[@id='logo']/div)[3]",
       "targets": [
         ["css=.ytd-app > #logo > #logo-icon-container", "css:finder"],
         ["xpath=(//div[@id='logo-icon-container'])[2]", "xpath:attributes"],
@@ -707,7 +707,7 @@
       "id": "45b78ced-3618-449b-bfe5-d919a94fd82c",
       "comment": "",
       "command": "mouseOut",
-      "target": "css=.ytd-app > #logo > #logo-icon-container",
+      "target": "xpath=(//a[@id='logo']/div)[3]",
       "targets": [
         ["css=.ytd-app > #logo > #logo-icon-container", "css:finder"],
         ["xpath=(//div[@id='logo-icon-container'])[2]", "xpath:attributes"],
@@ -726,7 +726,7 @@
       "id": "d9096088-134b-4e6b-9345-c798437f89f3",
       "comment": "",
       "command": "click",
-      "target": "css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(2) > #endpoint .title",
+      "target": "xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[18]",
       "targets": [
         ["css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(2) > #endpoint .title", "css:finder"],
         ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[18]", "xpath:idRelative"],
@@ -738,7 +738,7 @@
       "id": "1f65605e-cca3-4723-8eb7-0f4623159608",
       "comment": "",
       "command": "click",
-      "target": "id=title",
+      "target": "xpath=//div[@id='introduction-text']/div[2]",
       "targets": [
         ["id=title", "id"],
         ["css=#introduction-text > #title", "css:finder"],
@@ -774,286 +774,24 @@
       "value": ""
     }]
   }, {
-    "id": "575dc4c6-8b64-42db-9a2f-1f6fad3cbd38",
-    "name": "ReferenceTest",
-    "commands": [{
-      "id": "f92066e1-f4b5-4672-a02f-c03885ac7856",
-      "comment": "",
-      "command": "open",
-      "target": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "ffbc2302-68ae-4dbe-acda-7e2137dde449",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1098x691",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "e7e9e8bb-0e6d-45ed-927e-c1e73035d885",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "id=guide-icon",
-      "targets": [
-        ["id=guide-icon", "id"],
-        ["css=#start > #guide-button #guide-icon", "css:finder"],
-        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
-        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
-        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "de4001f6-fe7d-4e0e-8f6b-e3c3acb2d5f2",
-      "comment": "",
-      "command": "click",
-      "target": "id=guide-icon",
-      "targets": [
-        ["id=guide-icon", "id"],
-        ["css=#start > #guide-button #guide-icon", "css:finder"],
-        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
-        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
-        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "9883edb6-f18b-4050-9b38-2f92745e4040",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "id=guide-icon",
-      "targets": [
-        ["id=guide-icon", "id"],
-        ["css=#start > #guide-button #guide-icon", "css:finder"],
-        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
-        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
-        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "d5907ba1-2e66-429b-aedc-3bf7aab1646e",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.ytd-app > #logo > #logo-icon-container",
-      "targets": [
-        ["css=.ytd-app > #logo > #logo-icon-container", "css:finder"],
-        ["xpath=(//div[@id='logo-icon-container'])[2]", "xpath:attributes"],
-        ["xpath=(//a[@id='logo']/div)[3]", "xpath:idRelative"],
-        ["xpath=//div[2]/div/ytd-topbar-logo-renderer/a/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "78df1230-88b3-4583-819d-5940c2e706bf",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.ytd-app > #logo > #logo-icon-container",
-      "targets": [
-        ["css=.ytd-app > #logo > #logo-icon-container", "css:finder"],
-        ["xpath=(//div[@id='logo-icon-container'])[2]", "xpath:attributes"],
-        ["xpath=(//a[@id='logo']/div)[3]", "xpath:idRelative"],
-        ["xpath=//div[2]/div/ytd-topbar-logo-renderer/a/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "38e61158-df20-40d4-b2e4-c9531e4d861c",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(2) > #endpoint .title",
-      "targets": [
-        ["css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(2) > #endpoint .title", "css:finder"],
-        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[2]", "xpath:idRelative"],
-        ["xpath=//ytd-guide-entry-renderer[2]/a/paper-item/yt-formatted-string", "xpath:position"],
-        ["xpath=//yt-formatted-string[contains(.,'В тренде')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "156a9bac-cacb-467a-a6bc-7cfb8f74e1ce",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(2) > #endpoint .title",
-      "targets": [
-        ["css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(2) > #endpoint .title", "css:finder"],
-        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[2]", "xpath:idRelative"],
-        ["xpath=//ytd-guide-entry-renderer[2]/a/paper-item/yt-formatted-string", "xpath:position"],
-        ["xpath=//yt-formatted-string[contains(.,'В тренде')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "a5971e92-701b-41c7-8e07-71712576c95a",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,0)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "bfdf344d-26cf-4a39-ac5a-1dc6620b0d65",
-      "comment": "",
-      "command": "click",
-      "target": "css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(3) > #endpoint .title",
-      "targets": [
-        ["css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(3) > #endpoint .title", "css:finder"],
-        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[19]", "xpath:idRelative"],
-        ["xpath=//ytd-guide-section-renderer[6]/div/ytd-guide-entry-renderer[3]/a/paper-item/yt-formatted-string", "xpath:position"],
-        ["xpath=//yt-formatted-string[contains(.,'Справка')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "1a4343cb-73b4-474e-92b3-c68343172919",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.style-scope:nth-child(7) .style-scope:nth-child(2) > #endpoint > .style-scope",
-      "targets": [
-        ["css=.style-scope:nth-child(7) .style-scope:nth-child(2) > #endpoint > .style-scope", "css:finder"],
-        ["xpath=(//a[@id='endpoint']/paper-item)[18]", "xpath:idRelative"],
-        ["xpath=//ytd-guide-section-renderer[6]/div/ytd-guide-entry-renderer[2]/a/paper-item", "xpath:position"],
-        ["xpath=//paper-item[contains(.,'Жалобы')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "5c4ba277-4e55-45b0-9639-a710b05c5e95",
-      "comment": "",
-      "command": "selectFrame",
-      "target": "index=2",
-      "targets": [
-        ["index=2"]
-      ],
-      "value": ""
-    }, {
-      "id": "47f8ccb8-7651-4668-9e3e-eb7bf43ef905",
-      "comment": "",
-      "command": "selectFrame",
-      "target": "index=1",
-      "targets": [
-        ["index=1"]
-      ],
-      "value": ""
-    }, {
-      "id": "74f9786b-6778-434c-bc3d-0a6b49637e77",
-      "comment": "",
-      "command": "click",
-      "target": "css=.help-panel-home:nth-child(7) .help-panel-search__recommendation-results > .help-panel-search-result:nth-child(3) > .help-panel-search-result__text",
-      "targets": [
-        ["css=.help-panel-home:nth-child(7) .help-panel-search__recommendation-results > .help-panel-search-result:nth-child(3) > .help-panel-search-result__text", "css:finder"],
-        ["xpath=//div[@id='content']/div/div/div[2]/div[7]/div[2]/div/div/a[3]/span", "xpath:idRelative"],
-        ["xpath=//div[7]/div[2]/div/div/a[3]/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "d1b602b3-a0cf-40db-a862-8c556f48ac7d",
-      "comment": "",
-      "command": "selectFrame",
-      "target": "relative=parent",
-      "targets": [
-        ["relative=parent"]
-      ],
-      "value": ""
-    }, {
-      "id": "18ca6ff8-7a56-4536-ad06-dd8702e0ff5b",
-      "comment": "",
-      "command": "selectFrame",
-      "target": "relative=parent",
-      "targets": [
-        ["relative=parent"]
-      ],
-      "value": ""
-    }, {
-      "id": "8aa687cd-dcc2-41f7-a784-d3cc77925d77",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,0)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "dd317eb7-3c74-492e-8986-fa6623490f99",
-      "comment": "",
-      "command": "selectFrame",
-      "target": "index=2",
-      "targets": [
-        ["index=2"]
-      ],
-      "value": ""
-    }, {
-      "id": "0fcf7364-4b78-422d-adb0-99bb906a4ec3",
-      "comment": "",
-      "command": "selectFrame",
-      "target": "index=1",
-      "targets": [
-        ["index=1"]
-      ],
-      "value": ""
-    }, {
-      "id": "fe36d7e2-7b6a-4cae-a05e-81a10c003841",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,0)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "c4e54ea9-30ba-4d72-bfc4-0e8cc6dcc6b6",
-      "comment": "",
-      "command": "selectFrame",
-      "target": "index=8",
-      "targets": [
-        ["index=8"]
-      ],
-      "value": ""
-    }, {
-      "id": "d1372d42-3fc3-4eb2-86cb-7052b2d49555",
-      "comment": "",
-      "command": "click",
-      "target": "css=.as-button:nth-child(1)",
-      "targets": [
-        ["css=.as-button:nth-child(1)", "css:finder"],
-        ["xpath=//button[@type='button']", "xpath:attributes"],
-        ["xpath=//div[3]/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Да')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }]
-  }, {
     "id": "8ea734d1-06d6-4f4a-9fb1-594cc19db6f2",
     "name": "LeaveReviewTest",
     "commands": [{
-      "id": "99937aab-6f03-4111-b28f-363b8806720e",
+      "id": "7524eaa6-a83e-4b23-b947-a1cba0e8031e",
       "comment": "",
       "command": "open",
       "target": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
       "targets": [],
       "value": ""
     }, {
-      "id": "b40cb0b5-69a4-47aa-af7c-89af0ca46cb1",
+      "id": "2eb90b36-8670-4daa-8c8b-8ea9df0e5e03",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1098x691",
+      "target": "1488x892",
       "targets": [],
       "value": ""
     }, {
-      "id": "8a886727-5aef-476b-bcbf-f061e8eba277",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "id=logo-icon-container",
-      "targets": [
-        ["id=logo-icon-container", "id"],
-        ["css=#logo > #logo > #logo-icon-container", "css:finder"],
-        ["xpath=//div[@id='logo-icon-container']", "xpath:attributes"],
-        ["xpath=//a[@id='logo']/div", "xpath:idRelative"],
-        ["xpath=//a/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "cc734f7f-53bf-48f2-aca8-2ec72029f3b8",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "id=logo-icon-container",
-      "targets": [
-        ["id=logo-icon-container", "id"],
-        ["css=#logo > #logo > #logo-icon-container", "css:finder"],
-        ["xpath=//div[@id='logo-icon-container']", "xpath:attributes"],
-        ["xpath=//a[@id='logo']/div", "xpath:idRelative"],
-        ["xpath=//a/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "4129e34a-44c0-42c5-bd72-022c31657a9d",
+      "id": "d8d5bd84-1895-4e2a-9428-5a790f1da533",
       "comment": "",
       "command": "mouseOver",
       "target": "id=guide-icon",
@@ -1066,7 +804,7 @@
       ],
       "value": ""
     }, {
-      "id": "a8fec687-f349-434f-9bea-8ea3052dcbe7",
+      "id": "7ce688f0-6191-4598-ad38-c4a27af0e0e0",
       "comment": "",
       "command": "click",
       "target": "id=guide-icon",
@@ -1079,7 +817,7 @@
       ],
       "value": ""
     }, {
-      "id": "c710a25e-aa72-4f62-853a-ebc6bdea374d",
+      "id": "f6610c5d-ef58-42b0-9cf7-f5dfff48f6c2",
       "comment": "",
       "command": "mouseOut",
       "target": "id=guide-icon",
@@ -1092,7 +830,31 @@
       ],
       "value": ""
     }, {
-      "id": "28db0621-2a18-4c08-a706-90fd9e424078",
+      "id": "c8a27f07-ef09-4bdc-89fc-0f8905862da7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#header > #guide-button #guide-icon",
+      "targets": [
+        ["css=#header > #guide-button #guide-icon", "css:finder"],
+        ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[7]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/yt-icon-button/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4f1082a-91d4-4ecf-9797-a379ebc1e5ec",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#header > #guide-button #guide-icon",
+      "targets": [
+        ["css=#header > #guide-button #guide-icon", "css:finder"],
+        ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[7]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/yt-icon-button/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a2b46d1-8df2-4dd7-9eb5-ce2a6d65fa74",
       "comment": "",
       "command": "click",
       "target": "css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(4) > #endpoint .title",
@@ -1104,53 +866,37 @@
       ],
       "value": ""
     }, {
-      "id": "99796b35-f238-4cbd-ae63-fb04df25edd3",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,0)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "985c7ba7-cc84-402a-adc5-5dc789e11638",
-      "comment": "",
-      "command": "selectFrame",
-      "target": "index=2",
-      "targets": [
-        ["index=2"]
-      ],
-      "value": ""
-    }, {
-      "id": "ee9b719f-1b92-4583-8011-5c7cdc0fc316",
+      "id": "61542396-f2b1-45c5-a4c9-c1f4bdc83a9c",
       "comment": "",
       "command": "click",
-      "target": "css=textarea",
+      "target": "xpath=//textarea",
       "targets": [
         ["css=textarea", "css:finder"],
         ["xpath=//textarea", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "ad4f4cbe-982c-4803-bcf6-b45822ea099a",
+      "id": "639eefaa-907c-42d0-b600-2b46be71d073",
       "comment": "",
       "command": "click",
-      "target": "css=textarea",
+      "target": "xpath=//textarea",
       "targets": [
         ["css=textarea", "css:finder"],
         ["xpath=//textarea", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "e5359ad0-9f2c-4d3a-bfea-33bb44babaa9",
+      "id": "fe718ba3-0803-423c-97cb-f6c548d803d1",
       "comment": "",
       "command": "type",
-      "target": "css=textarea",
+      "target": "xpath=//textarea",
       "targets": [
         ["css=textarea", "css:finder"],
         ["xpath=//textarea", "xpath:position"]
       ],
-      "value": "Fisting boy next door"
+      "value": "Fisting boy next door\\n"
     }, {
-      "id": "6cf8b759-245e-49d2-9a1c-dd74a7d7f06e",
+      "id": "95622e60-660e-4a98-b103-fba78309b136",
       "comment": "",
       "command": "click",
       "target": "css=uf-material-button:nth-child(1) button",
@@ -1161,6 +907,242 @@
         ["xpath=//button[contains(.,'ОТПРАВИТЬ')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "d01c73af-4ec9-4483-b50d-c830d9e3b7e5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4ba00448-c0fa-40d5-ada7-df59950af3b4",
+    "name": "ReferenceTest",
+    "commands": [{
+      "id": "43380d38-f3ac-4f19-94fd-808da9d2dc6d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63fbfd7f-becd-480a-ba11-b27d2609c4b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1208x770",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1042b3ba-793a-425d-9797-956d957f4196",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(2) > #dismissable #video-title",
+      "targets": [
+        ["css=.style-scope:nth-child(2) > #dismissable #video-title", "css:finder"],
+        ["xpath=(//span[@id='video-title'])[2]", "xpath:attributes"],
+        ["xpath=(//div[@id='dismissable']/div/div/a/h3/span)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-watch-next-secondary-results-renderer/div[2]/ytd-compact-video-renderer/div/div/div/a/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Самая дорогая шаурма за 2200р.(910 грн.) две штуки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b27f41c9-9713-4191-9eb2-0c486696bdbb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(2) > #dismissable #video-title",
+      "targets": [
+        ["css=.style-scope:nth-child(2) > #dismissable #video-title", "css:finder"],
+        ["xpath=(//span[@id='video-title'])[2]", "xpath:attributes"],
+        ["xpath=(//div[@id='dismissable']/div/div/a/h3/span)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-watch-next-secondary-results-renderer/div[2]/ytd-compact-video-renderer/div/div/div/a/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Самая дорогая шаурма за 2200р.(910 грн.) две штуки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01034540-9cc8-48ba-96fc-3d0ca82f216d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(3) > #dismissable #img",
+      "targets": [
+        ["css=.style-scope:nth-child(3) > #dismissable #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/zD-0y4sTx9I/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDiQKabOy3ymxaJhKWWbUQfmxejwg')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[5]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[3]", "xpath:idRelative"],
+        ["xpath=//ytd-compact-video-renderer[2]/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9db197b4-51b8-48d5-b8a1-a237a6a0f10a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(3) > #dismissable #img",
+      "targets": [
+        ["css=.style-scope:nth-child(3) > #dismissable #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/zD-0y4sTx9I/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDiQKabOy3ymxaJhKWWbUQfmxejwg')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[5]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[3]", "xpath:idRelative"],
+        ["xpath=//ytd-compact-video-renderer[2]/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4cf281b-60d0-4dea-b0e3-0e8e34c87179",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dfa8448-aa4e-4291-acb3-5ee890e6377e",
+      "comment": "",
+      "command": "click",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e8ba3f9-526c-481d-bd8d-b468cb7b6ab7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=guide-icon",
+      "targets": [
+        ["id=guide-icon", "id"],
+        ["css=#start > #guide-button #guide-icon", "css:finder"],
+        ["xpath=//yt-icon[@id='guide-icon']", "xpath:attributes"],
+        ["xpath=(//button[@id='button']/yt-icon)[2]", "xpath:idRelative"],
+        ["xpath=//yt-icon-button[2]/button/yt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f1c36de-72bd-4049-922c-68dc8f61441d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[19]",
+      "targets": [
+        ["css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(3) > #endpoint .title", "css:finder"],
+        ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[19]", "xpath:idRelative"],
+        ["xpath=//ytd-guide-section-renderer[6]/div/ytd-guide-entry-renderer[3]/a/paper-item/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Справка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a8f7834-fb93-43ec-8841-153450769fc7",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "de422073-b205-48d4-bcd6-0c4caa373fa0",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "8af12a4b-55f9-4caa-b829-4532de79cb7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.help-panel-home:nth-child(7) .help-panel-search-result:nth-child(5) > .help-panel-search-result__text > span",
+      "targets": [
+        ["css=.help-panel-home:nth-child(7) .help-panel-search-result:nth-child(5) > .help-panel-search-result__text > span", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div[7]/div[2]/div/div/a[5]/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/div/a[5]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d887747-7644-490a-bdf5-d143eea9b5a1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd41ebe3-3213-4a3e-a630-34701e7532c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.help-panel-header__back-icon > path",
+      "targets": [
+        ["css=.help-panel-header__back-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d79b885b-aac9-4c81-89b4-0deb44e24544",
+      "comment": "",
+      "command": "click",
+      "target": "css=.help-panel-home:nth-child(7) .help-panel-search-result:nth-child(2) > .help-panel-search-result__text > span",
+      "targets": [
+        ["css=.help-panel-home:nth-child(7) .help-panel-search-result:nth-child(2) > .help-panel-search-result__text > span", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div[7]/div[2]/div/div/a[2]/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/div/a[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc3e11a4-ca5f-45bf-a231-03435323a2ac",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9c188a5-a933-4e2e-9d62-054d08c31c18",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=7",
+      "targets": [
+        ["index=7"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b817713-aade-451d-ae21-f42d037f6725",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Android",
+      "targets": [
+        ["linkText=Android", "linkText"],
+        ["css=.context-selector-tab:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Android')]", "xpath:link"],
+        ["xpath=//gkms-context-selector[@id='7074864']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Android')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55e10a9a-e28f-4e0c-b032-54ffdc07c7ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.index1",
+      "targets": [
+        ["css=.index1", "css:finder"],
+        ["xpath=//div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'В приложении для Android')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b916901-57b4-4f5a-8c5d-cce2b968e497",
+      "comment": "",
+      "command": "click",
+      "target": "css=.index2",
+      "targets": [
+        ["css=.index2", "css:finder"],
+        ["xpath=//div[3]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'На сайте m.youtube.com')]", "xpath:innerText"]
+      ],
+      "value": ""
     }]
   }],
   "suites": [{
@@ -1169,7 +1151,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["1ae88515-2dd5-4253-8e6b-82dc2f934bed"]
+    "tests": ["1ae88515-2dd5-4253-8e6b-82dc2f934bed", "2474f337-2673-4abd-93e1-651f8af0aeb0", "8ea734d1-06d6-4f4a-9fb1-594cc19db6f2", "5aa12b4f-46d5-4d24-a1ed-d325f2f30414", "4ba00448-c0fa-40d5-ada7-df59950af3b4", "e7071a97-2ac5-4bd2-9eb6-f4af44d703df", "1981927d-9c32-4635-9fef-f34ce850321e", "eede3b1b-cfb6-4fb0-9b39-47dc38d74678", "33bf958b-8535-4a76-9895-c84044e24998"]
   }],
   "urls": ["https://www.youtube.com/", "https://www.youtube.com/watch?v=FFJfwEJQJzQ"],
   "plugins": []
