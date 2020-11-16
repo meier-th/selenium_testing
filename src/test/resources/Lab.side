@@ -24,7 +24,7 @@
       "id": "bb81d27f-6cf7-4c46-8ec9-e5cfd97fe446",
       "comment": "",
       "command": "mouseOver",
-      "target": "xpath=//form[@id='search-form']/button",
+      "target": "xpath=//form/button",
       "targets": [
         ["id=search-icon-legacy", "id"],
         ["css=#search-icon-legacy", "css:finder"],
@@ -37,7 +37,7 @@
       "id": "47a2ab90-2f74-4d7d-a8bf-847a1e693f5f",
       "comment": "",
       "command": "mouseOut",
-      "target": "xpath=//form[@id='search-form']/button",
+      "target": "xpath=//form/button",
       "targets": [
         ["id=search-icon-legacy", "id"],
         ["css=#search-icon-legacy", "css:finder"],
@@ -51,7 +51,7 @@
       "id": "e9471855-5c07-417f-9ef0-c6d13045749e",
       "comment": "",
       "command": "mouseOver",
-      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
+      "target": "xpath=//yt-icon-button[2]/button/yt-icon",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -64,7 +64,7 @@
       "id": "102fb527-ef37-46d7-a12e-e350d4574434",
       "comment": "",
       "command": "click",
-      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
+      "target": "xpath=//yt-icon-button[2]/button/yt-icon",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -77,7 +77,7 @@
       "id": "98bc8a53-965b-48f8-bfad-b5b3d279c753",
       "comment": "",
       "command": "mouseOut",
-      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
+      "target": "xpath=//yt-icon-button[2]/button/yt-icon",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -90,7 +90,7 @@
       "id": "e2bd5a12-3593-4194-94f6-c8333a3fb38d",
       "comment": "",
       "command": "mouseOver",
-      "target": "xpath=(//button[@id='button']/yt-icon)[7]",
+      "target": "xpath=//div[2]/div/yt-icon-button/button/yt-icon",
       "targets": [
         ["css=#header > #guide-button #guide-icon", "css:finder"],
         ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
@@ -102,7 +102,7 @@
       "id": "30f14c2a-e1b7-4cd0-8d0b-8a5e9178cb9a",
       "comment": "",
       "command": "mouseOut",
-      "target": "xpath=(//button[@id='button']/yt-icon)[7]",
+      "target": "xpath=//div[2]/div/yt-icon-button/button/yt-icon",
       "targets": [
         ["css=#header > #guide-button #guide-icon", "css:finder"],
         ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
@@ -114,7 +114,7 @@
       "id": "5e24d564-86c9-4622-b135-fed13e67cb7c",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[@id='endpoint']/paper-item/yt-formatted-string",
+      "target": "xpath=//paper-item/yt-formatted-string",
       "targets": [
         ["css=.style-scope:nth-child(1) > #items > .style-scope:nth-child(1) > #endpoint .title", "css:finder"],
         ["xpath=//a[@id='endpoint']/paper-item/yt-formatted-string", "xpath:idRelative"],
@@ -375,7 +375,7 @@
       "id": "38c6cc2c-74c7-4c38-897e-9783936e917c",
       "comment": "",
       "command": "click",
-      "target": "xpath=//div[@id='movie_player']/div[5]/button",
+      "target": "xpath=//div[5]/button",
       "targets": [
         ["css=.ytp-large-play-button", "css:finder"],
         ["xpath=//div[@id='movie_player']/div[5]/button", "xpath:idRelative"],
@@ -386,7 +386,7 @@
       "id": "2dd24ecd-44d9-4e3a-b12a-281a16c4bc17",
       "comment": "",
       "command": "mouseOver",
-      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
+      "target": "xpath=//yt-icon-button[2]/button/yt-icon",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -399,7 +399,7 @@
       "id": "e634a917-7a17-4e33-b874-03807bea7300",
       "comment": "",
       "command": "click",
-      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
+      "target": "xpath=//yt-icon-button[2]/button/yt-icon",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -412,7 +412,7 @@
       "id": "81d1e5c1-89fc-4cf3-9bb4-1444bb72f761",
       "comment": "",
       "command": "mouseOut",
-      "target": "xpath=(//button[@id='button']/yt-icon)[2]",
+      "target": "xpath=//yt-icon-button[2]/button/yt-icon",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -425,7 +425,7 @@
       "id": "d302be9c-7c7c-4995-bd9f-e37ff7284c1a",
       "comment": "",
       "command": "click",
-      "target": "xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[5]",
+      "target": "css=.style-scope:nth-child(2) > #items > .style-scope:nth-child(2) > #endpoint .title",
       "targets": [
         ["css=.style-scope:nth-child(2) > #items > .style-scope:nth-child(2) > #endpoint .title", "css:finder"],
         ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[5]", "xpath:idRelative"],
@@ -437,7 +437,7 @@
       "id": "922fda49-983a-4132-90c1-f24c31c8ac4d",
       "comment": "",
       "command": "mouseOver",
-      "target": "xpath=(//div[@id='radioContainer']/div)[3]",
+      "target": "css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio",
       "targets": [
         ["css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[2]", "xpath:attributes"],
@@ -449,7 +449,7 @@
       "id": "56b47940-20cd-417d-b123-130531e1c11c",
       "comment": "",
       "command": "click",
-      "target": "xpath=(//div[@id='radioContainer']/div)[3]",
+      "target": "css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio",
       "targets": [
         ["css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[2]", "xpath:attributes"],
@@ -461,7 +461,7 @@
       "id": "52769698-0258-457f-8a76-484fd8326cf8",
       "comment": "",
       "command": "mouseOut",
-      "target": "xpath=(//div[@id='radioContainer']/div)[3]",
+      "target": "css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio",
       "targets": [
         ["css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[2]", "xpath:attributes"],
@@ -473,7 +473,7 @@
       "id": "0cda15ff-036a-43c8-87ea-58b617a578ab",
       "comment": "",
       "command": "mouseOver",
-      "target": "xpath=(//div[@id='radioContainer']/div)[5]",
+      "target": "css=.style-scope:nth-child(3) #offRadio",
       "targets": [
         ["css=.style-scope:nth-child(3) #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[3]", "xpath:attributes"],
@@ -485,7 +485,7 @@
       "id": "825f001d-2737-4915-9cdc-71e2d0326f16",
       "comment": "",
       "command": "click",
-      "target": "xpath=(//div[@id='radioContainer']/div)[5]",
+      "target": "css=.style-scope:nth-child(3) #offRadio",
       "targets": [
         ["css=.style-scope:nth-child(3) #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[3]", "xpath:attributes"],
@@ -497,7 +497,7 @@
       "id": "ac398773-64fa-4e1e-a725-faaed4599de5",
       "comment": "",
       "command": "mouseOut",
-      "target": "xpath=(//div[@id='radioContainer']/div)[5]",
+      "target": "css=.style-scope:nth-child(3) #offRadio",
       "targets": [
         ["css=.style-scope:nth-child(3) #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[3]", "xpath:attributes"],
@@ -509,7 +509,7 @@
       "id": "45c3dab4-1521-4444-b2a2-6dd776da5f5d",
       "comment": "",
       "command": "mouseOver",
-      "target": "xpath=(//div[@id='radioContainer']/div)[7]",
+      "target": "css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio",
       "targets": [
         ["css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[4]", "xpath:attributes"],
@@ -521,7 +521,7 @@
       "id": "f16599e7-2433-462c-b387-b7c21a2f2f47",
       "comment": "",
       "command": "click",
-      "target": "xpath=(//div[@id='radioContainer']/div)[7]",
+      "target": "css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio",
       "targets": [
         ["css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[4]", "xpath:attributes"],
@@ -533,7 +533,7 @@
       "id": "57061d58-a9aa-4c69-b4a7-29389968fdbd",
       "comment": "",
       "command": "mouseOut",
-      "target": "xpath=(//div[@id='radioContainer']/div)[7]",
+      "target": "css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio",
       "targets": [
         ["css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[4]", "xpath:attributes"],
@@ -545,7 +545,7 @@
       "id": "4d2a0ffb-3f27-49cc-9b68-5993aad2b5ed",
       "comment": "",
       "command": "click",
-      "target": "xpath=(//div[@id='radioContainer']/div)[9]",
+      "target": "css=.style-scope:nth-child(5) #offRadio",
       "targets": [
         ["css=.style-scope:nth-child(5) #offRadio", "css:finder"],
         ["xpath=(//div[@id='offRadio'])[5]", "xpath:attributes"],
@@ -794,7 +794,7 @@
       "id": "d8d5bd84-1895-4e2a-9428-5a790f1da533",
       "comment": "",
       "command": "mouseOver",
-      "target": "id=guide-icon",
+      "target": "xpath=//yt-icon-button[2]/button/yt-icon",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -807,7 +807,7 @@
       "id": "7ce688f0-6191-4598-ad38-c4a27af0e0e0",
       "comment": "",
       "command": "click",
-      "target": "id=guide-icon",
+      "target": "xpath=//yt-icon-button[2]/button/yt-icon",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -820,7 +820,7 @@
       "id": "f6610c5d-ef58-42b0-9cf7-f5dfff48f6c2",
       "comment": "",
       "command": "mouseOut",
-      "target": "id=guide-icon",
+      "target": "xpath=//yt-icon-button[2]/button/yt-icon",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -833,7 +833,7 @@
       "id": "c8a27f07-ef09-4bdc-89fc-0f8905862da7",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=#header > #guide-button #guide-icon",
+      "target": "xpath=//div[2]/div/yt-icon-button/button/yt-icon",
       "targets": [
         ["css=#header > #guide-button #guide-icon", "css:finder"],
         ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
@@ -845,7 +845,7 @@
       "id": "a4f1082a-91d4-4ecf-9797-a379ebc1e5ec",
       "comment": "",
       "command": "mouseOut",
-      "target": "css=#header > #guide-button #guide-icon",
+      "target": "xpath=//div[2]/div/yt-icon-button/button/yt-icon",
       "targets": [
         ["css=#header > #guide-button #guide-icon", "css:finder"],
         ["xpath=(//yt-icon[@id='guide-icon'])[2]", "xpath:attributes"],
@@ -857,7 +857,7 @@
       "id": "4a2b46d1-8df2-4dd7-9eb5-ce2a6d65fa74",
       "comment": "",
       "command": "click",
-      "target": "css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(4) > #endpoint .title",
+      "target": "xpath=//ytd-guide-section-renderer[6]/div/ytd-guide-entry-renderer[4]/a/paper-item/yt-formatted-string",
       "targets": [
         ["css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(4) > #endpoint .title", "css:finder"],
         ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[20]", "xpath:idRelative"],
@@ -899,7 +899,7 @@
       "id": "95622e60-660e-4a98-b103-fba78309b136",
       "comment": "",
       "command": "click",
-      "target": "css=uf-material-button:nth-child(1) button",
+      "target": "xpath=//label/button",
       "targets": [
         ["css=uf-material-button:nth-child(1) button", "css:finder"],
         ["xpath=//button[@type='submit']", "xpath:attributes"],
@@ -919,76 +919,60 @@
     "id": "4ba00448-c0fa-40d5-ada7-df59950af3b4",
     "name": "ReferenceTest",
     "commands": [{
-      "id": "43380d38-f3ac-4f19-94fd-808da9d2dc6d",
+      "id": "7f348179-b73f-4aa1-9365-8bf69074c094",
       "comment": "",
       "command": "open",
       "target": "https://www.youtube.com/watch?v=FFJfwEJQJzQ",
       "targets": [],
       "value": ""
     }, {
-      "id": "63fbfd7f-becd-480a-ba11-b27d2609c4b6",
+      "id": "77bb8de9-86df-4252-8f08-b974ddaab336",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1208x770",
+      "target": "1545x835",
       "targets": [],
       "value": ""
     }, {
-      "id": "1042b3ba-793a-425d-9797-956d957f4196",
+      "id": "85dc5a93-fa6e-48b0-a26b-f44570e7454c",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=.style-scope:nth-child(2) > #dismissable #video-title",
+      "target": "xpath=//a/span",
       "targets": [
-        ["css=.style-scope:nth-child(2) > #dismissable #video-title", "css:finder"],
-        ["xpath=(//span[@id='video-title'])[2]", "xpath:attributes"],
-        ["xpath=(//div[@id='dismissable']/div/div/a/h3/span)[2]", "xpath:idRelative"],
-        ["xpath=//ytd-watch-next-secondary-results-renderer/div[2]/ytd-compact-video-renderer/div/div/div/a/h3/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Самая дорогая шаурма за 2200р.(910 грн.) две штуки')]", "xpath:innerText"]
+        ["css=.style-scope:nth-child(1) > #comment > #body > #main > #header #author-text > .style-scope", "css:finder"],
+        ["xpath=//a[@id='author-text']/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'FriendlyApple')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "b27f41c9-9713-4191-9eb2-0c486696bdbb",
+      "id": "585395b3-264f-456f-993f-8eb9ed61bace",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//ytd-compact-video-renderer[8]/div/div/div/a/div/ytd-video-meta-block/div/div[2]",
+      "targets": [
+        ["css=.style-scope:nth-child(10) > #dismissable #metadata-line", "css:finder"],
+        ["xpath=(//div[@id='metadata-line'])[10]", "xpath:attributes"],
+        ["xpath=(//div[@id='metadata']/div[2])[10]", "xpath:idRelative"],
+        ["xpath=//ytd-compact-video-renderer[8]/div/div/div/a/div/ytd-video-meta-block/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6034afda-8692-460a-a0ca-ff2d947f19c7",
       "comment": "",
       "command": "mouseOut",
-      "target": "css=.style-scope:nth-child(2) > #dismissable #video-title",
+      "target": "xpath=//ytd-compact-video-renderer[8]/div/div/div/a/div/ytd-video-meta-block/div/div[2]",
       "targets": [
-        ["css=.style-scope:nth-child(2) > #dismissable #video-title", "css:finder"],
-        ["xpath=(//span[@id='video-title'])[2]", "xpath:attributes"],
-        ["xpath=(//div[@id='dismissable']/div/div/a/h3/span)[2]", "xpath:idRelative"],
-        ["xpath=//ytd-watch-next-secondary-results-renderer/div[2]/ytd-compact-video-renderer/div/div/div/a/h3/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Самая дорогая шаурма за 2200р.(910 грн.) две штуки')]", "xpath:innerText"]
+        ["css=.style-scope:nth-child(10) > #dismissable #metadata-line", "css:finder"],
+        ["xpath=(//div[@id='metadata-line'])[10]", "xpath:attributes"],
+        ["xpath=(//div[@id='metadata']/div[2])[10]", "xpath:idRelative"],
+        ["xpath=//ytd-compact-video-renderer[8]/div/div/div/a/div/ytd-video-meta-block/div/div[2]", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "01034540-9cc8-48ba-96fc-3d0ca82f216d",
+      "id": "5e65a2aa-3140-47cf-9504-910c384b0b15",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=.style-scope:nth-child(3) > #dismissable #img",
-      "targets": [
-        ["css=.style-scope:nth-child(3) > #dismissable #img", "css:finder"],
-        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/zD-0y4sTx9I/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDiQKabOy3ymxaJhKWWbUQfmxejwg')]", "xpath:img"],
-        ["xpath=(//img[@id='img'])[5]", "xpath:attributes"],
-        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[3]", "xpath:idRelative"],
-        ["xpath=//ytd-compact-video-renderer[2]/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "9db197b4-51b8-48d5-b8a1-a237a6a0f10a",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.style-scope:nth-child(3) > #dismissable #img",
-      "targets": [
-        ["css=.style-scope:nth-child(3) > #dismissable #img", "css:finder"],
-        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/zD-0y4sTx9I/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDiQKabOy3ymxaJhKWWbUQfmxejwg')]", "xpath:img"],
-        ["xpath=(//img[@id='img'])[5]", "xpath:attributes"],
-        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[3]", "xpath:idRelative"],
-        ["xpath=//ytd-compact-video-renderer[2]/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "c4cf281b-60d0-4dea-b0e3-0e8e34c87179",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "id=guide-icon",
+      "target": "xpath=//yt-icon-button[2]/button/yt-icon",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -998,10 +982,10 @@
       ],
       "value": ""
     }, {
-      "id": "9dfa8448-aa4e-4291-acb3-5ee890e6377e",
+      "id": "e5be3583-7b74-4165-88dc-4fea9ab75284",
       "comment": "",
       "command": "click",
-      "target": "id=guide-icon",
+      "target": "xpath=//yt-icon-button[2]/button/yt-icon",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -1011,10 +995,10 @@
       ],
       "value": ""
     }, {
-      "id": "9e8ba3f9-526c-481d-bd8d-b468cb7b6ab7",
+      "id": "a3f99c3e-4c7e-4cf8-9422-61a4e7136799",
       "comment": "",
       "command": "mouseOut",
-      "target": "id=guide-icon",
+      "target": "xpath=//yt-icon-button[2]/button/yt-icon",
       "targets": [
         ["id=guide-icon", "id"],
         ["css=#start > #guide-button #guide-icon", "css:finder"],
@@ -1024,10 +1008,10 @@
       ],
       "value": ""
     }, {
-      "id": "9f1c36de-72bd-4049-922c-68dc8f61441d",
+      "id": "8611d6ae-372e-4c8f-8e74-b6992253cd8f",
       "comment": "",
       "command": "click",
-      "target": "xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[19]",
+      "target": "xpath=//ytd-guide-section-renderer[6]/div/ytd-guide-entry-renderer[3]/a/paper-item/yt-formatted-string",
       "targets": [
         ["css=.style-scope:nth-child(7) > #items > .style-scope:nth-child(3) > #endpoint .title", "css:finder"],
         ["xpath=(//a[@id='endpoint']/paper-item/yt-formatted-string)[19]", "xpath:idRelative"],
@@ -1036,16 +1020,16 @@
       ],
       "value": ""
     }, {
-      "id": "2a8f7834-fb93-43ec-8841-153450769fc7",
+      "id": "c0932418-f2c6-4d79-965e-9cef6237e757",
       "comment": "",
       "command": "selectFrame",
-      "target": "index=2",
+      "target": "index=3",
       "targets": [
-        ["index=2"]
+        ["index=3"]
       ],
       "value": ""
     }, {
-      "id": "de422073-b205-48d4-bcd6-0c4caa373fa0",
+      "id": "64650268-6de9-4497-93be-f319a0eef72c",
       "comment": "",
       "command": "selectFrame",
       "target": "index=1",
@@ -1054,94 +1038,95 @@
       ],
       "value": ""
     }, {
-      "id": "8af12a4b-55f9-4caa-b829-4532de79cb7a",
+      "id": "35de6b5f-8d4f-4be4-8ddd-1976536182f8",
       "comment": "",
       "command": "click",
-      "target": "css=.help-panel-home:nth-child(7) .help-panel-search-result:nth-child(5) > .help-panel-search-result__text > span",
+      "target": "xpath=//div[7]/div[2]/div/div/a/span/span",
       "targets": [
-        ["css=.help-panel-home:nth-child(7) .help-panel-search-result:nth-child(5) > .help-panel-search-result__text > span", "css:finder"],
-        ["xpath=//div[@id='content']/div/div/div[2]/div[7]/div[2]/div/div/a[5]/span/span", "xpath:idRelative"],
-        ["xpath=//div[7]/div[2]/div/div/a[5]/span/span", "xpath:position"]
+        ["css=.help-panel-home:nth-child(7) .help-panel-search-result:nth-child(1) > .help-panel-search-result__text > span", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div[7]/div[2]/div/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/div/a/span/span", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "4d887747-7644-490a-bdf5-d143eea9b5a1",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,0)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "cd41ebe3-3213-4a3e-a630-34701e7532c3",
-      "comment": "",
-      "command": "click",
-      "target": "css=.help-panel-header__back-icon > path",
-      "targets": [
-        ["css=.help-panel-header__back-icon > path", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "d79b885b-aac9-4c81-89b4-0deb44e24544",
-      "comment": "",
-      "command": "click",
-      "target": "css=.help-panel-home:nth-child(7) .help-panel-search-result:nth-child(2) > .help-panel-search-result__text > span",
-      "targets": [
-        ["css=.help-panel-home:nth-child(7) .help-panel-search-result:nth-child(2) > .help-panel-search-result__text > span", "css:finder"],
-        ["xpath=//div[@id='content']/div/div/div[2]/div[7]/div[2]/div/div/a[2]/span/span", "xpath:idRelative"],
-        ["xpath=//div[7]/div[2]/div/div/a[2]/span/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "bc3e11a4-ca5f-45bf-a231-03435323a2ac",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,0)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "d9c188a5-a933-4e2e-9d62-054d08c31c18",
+      "id": "d3209c35-fbbb-4671-b23b-dd3ada1ace5b",
       "comment": "",
       "command": "selectFrame",
-      "target": "index=7",
+      "target": "index=6",
       "targets": [
-        ["index=7"]
+        ["index=6"]
       ],
       "value": ""
     }, {
-      "id": "8b817713-aade-451d-ae21-f42d037f6725",
+      "id": "9da10c8e-0fcf-4fd4-bb2a-ae0b3c95ccb6",
       "comment": "",
       "command": "click",
-      "target": "linkText=Android",
+      "target": "xpath=//div/a[2]",
       "targets": [
         ["linkText=Android", "linkText"],
         ["css=.context-selector-tab:nth-child(2)", "css:finder"],
         ["xpath=//a[contains(text(),'Android')]", "xpath:link"],
-        ["xpath=//gkms-context-selector[@id='7074864']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//gkms-context-selector[@id='7177986']/div/div/a[2]", "xpath:idRelative"],
         ["xpath=//div/a[2]", "xpath:position"],
         ["xpath=//a[contains(.,'Android')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "55e10a9a-e28f-4e0c-b032-54ffdc07c7ac",
+      "id": "12659595-99e1-4435-b85b-f8357935ee92",
       "comment": "",
-      "command": "click",
-      "target": "css=.index1",
+      "command": "selectFrame",
+      "target": "relative=parent",
       "targets": [
-        ["css=.index1", "css:finder"],
-        ["xpath=//div/div/div/h2", "xpath:position"],
-        ["xpath=//h2[contains(.,'В приложении для Android')]", "xpath:innerText"]
+        ["relative=parent"]
       ],
       "value": ""
     }, {
-      "id": "6b916901-57b4-4f5a-8c5d-cce2b968e497",
+      "id": "100bd2d0-8dbe-4b94-8df8-0da196602dd0",
       "comment": "",
       "command": "click",
-      "target": "css=.index2",
+      "target": "css=.help-panel-header__back-icon",
       "targets": [
-        ["css=.index2", "css:finder"],
-        ["xpath=//div[3]/h2", "xpath:position"],
-        ["xpath=//h2[contains(.,'На сайте m.youtube.com')]", "xpath:innerText"]
+        ["css=.help-panel-header__back-icon", "css:finder"]
       ],
+      "value": ""
+    }, {
+      "id": "b941afdd-0501-4c7d-9b12-19c21a917bf9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[7]/div[2]/div/div/a[4]/span",
+      "targets": [
+        ["css=.help-panel-home:nth-child(7) .help-panel-search__recommendation-results > .help-panel-search-result:nth-child(4) > .help-panel-search-result__text", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div[7]/div[2]/div/div/a[4]/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/div/a[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6efa581f-ca23-420f-b88b-8e0175cfb005",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=6",
+      "targets": [
+        ["index=6"]
+      ],
+      "value": ""
+    }, {
+      "id": "faf193bb-6adf-4529-a32c-483eaf28f061",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button",
+      "targets": [
+        ["css=.as-button:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Да')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8832085f-8a78-4be0-a0c5-2c093f69f0f6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }],

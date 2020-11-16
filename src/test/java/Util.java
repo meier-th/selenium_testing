@@ -18,6 +18,11 @@ public class Util {
                 By.xpath(xpath)));
     }
 
+    public static void waitForPresence(WebDriver driver, String xpath) {
+        new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(
+                By.xpath(xpath)));
+    }
+
     public static WebDriver getFirefoxDriver() {
         System.setProperty("webdriver.gecko.driver", "geckodriver");
         return new FirefoxDriver();
