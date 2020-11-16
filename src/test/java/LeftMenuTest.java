@@ -134,6 +134,7 @@ public class LeftMenuTest {
     }
     // 7 | click | css=.style-scope:nth-child(2) > #items > .style-scope:nth-child(2) > #endpoint .title |
     driver.findElement(By.cssSelector(".style-scope:nth-child(2) > #items > .style-scope:nth-child(2) > #endpoint .title")).click();
+    Assertions.assertEquals("https://www.youtube.com/feed/history", driver.getCurrentUrl());
     // 8 | mouseOver | css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio |
     {
       WebElement element = driver.findElement(By.cssSelector(".style-scope:nth-child(2) > .yt-simple-endpoint #offRadio"));
@@ -142,6 +143,7 @@ public class LeftMenuTest {
     }
     // 9 | click | css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio |
     driver.findElement(By.cssSelector(".style-scope:nth-child(2) > .yt-simple-endpoint #offRadio")).click();
+    Assertions.assertEquals("https://www.youtube.com/feed/history/search_history", driver.getCurrentUrl());
     // 10 | mouseOut | css=.style-scope:nth-child(2) > .yt-simple-endpoint #offRadio |
     {
       WebElement element = driver.findElement(By.tagName("body"));
@@ -156,6 +158,7 @@ public class LeftMenuTest {
     }
     // 12 | click | css=.style-scope:nth-child(3) #offRadio |
     driver.findElement(By.cssSelector(".style-scope:nth-child(3) #offRadio")).click();
+    Assertions.assertEquals("https://www.youtube.com/feed/history/comment_history", driver.getCurrentUrl());
     // 13 | mouseOut | css=.style-scope:nth-child(3) #offRadio |
     {
       WebElement element = driver.findElement(By.tagName("body"));
@@ -170,6 +173,7 @@ public class LeftMenuTest {
     }
     // 15 | click | css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio |
     driver.findElement(By.cssSelector(".style-scope:nth-child(4) > .yt-simple-endpoint #offRadio")).click();
+    Assertions.assertEquals("https://www.youtube.com/feed/history/community_history", driver.getCurrentUrl());
     // 16 | mouseOut | css=.style-scope:nth-child(4) > .yt-simple-endpoint #offRadio |
     {
       WebElement element = driver.findElement(By.tagName("body"));
@@ -178,6 +182,7 @@ public class LeftMenuTest {
     }
     // 17 | click | css=.style-scope:nth-child(5) #offRadio |
     driver.findElement(By.cssSelector(".style-scope:nth-child(5) #offRadio")).click();
+    Assertions.assertEquals("https://www.youtube.com/feed/history/live_chat_history", driver.getCurrentUrl());
   }
 
   @Test
@@ -278,6 +283,7 @@ public class LeftMenuTest {
     xpathExpression = "(//a[@id=\'endpoint\']/paper-item/yt-formatted-string)[4]";
     Util.waitForPresence(driver, xpathExpression);
     driver.findElement(By.xpath(xpathExpression)).click();
+    Assertions.assertEquals("https://www.youtube.com/feed/library", driver.getCurrentUrl());
   }
 
   @Test
@@ -409,6 +415,7 @@ public class LeftMenuTest {
     xpathExpression = "(//a[@id=\'endpoint\']/paper-item/yt-formatted-string)[17]";
     Util.waitForPresence(driver, xpathExpression);
     driver.findElement(By.xpath(xpathExpression)).click();
+    Assertions.assertFalse(driver.getCurrentUrl().startsWith("https://www.youtube.com")); // moved to google sso page
   }
 
   @Test
@@ -442,6 +449,7 @@ public class LeftMenuTest {
     xpathExpression = "(//a[@id=\'endpoint\']/paper-item/yt-formatted-string)[3]";
     Util.waitForPresence(driver, xpathExpression);
     driver.findElement(By.xpath(xpathExpression)).click();
+    Assertions.assertEquals("https://www.youtube.com/feed/subscriptions", driver.getCurrentUrl());
   }
 
   @Test
@@ -475,5 +483,6 @@ public class LeftMenuTest {
     xpathExpression = "(//a[@id=\'endpoint\']/paper-item/yt-formatted-string)[2]";
     Util.waitForPresence(driver, xpathExpression);
     driver.findElement(By.xpath(xpathExpression)).click();
+    Assertions.assertEquals("https://www.youtube.com/feed/trending", driver.getCurrentUrl());
   }
 }
